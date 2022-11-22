@@ -7,5 +7,5 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 var marker = L.marker([-7.420419566364883, 109.24936603853541]).addTo(map);
 
-var geoJsonLayer = new L.GeoJSON.AJAX('Kab_Banyumas_GeoJSON.geojson')
+var geoJsonLayer = new L.GeoJSON.AJAX('banyumas.geojson')
 geoJsonLayer.addTo(map)
